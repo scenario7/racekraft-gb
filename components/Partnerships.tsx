@@ -12,10 +12,10 @@ const inter = Space_Grotesk({
 });
 
 const images = [
-  "https://upload.wikimedia.org/wikipedia/en/f/f6/F4_British_Championship_logo.jpeg",
-  "https://upload.wikimedia.org/wikipedia/en/f/f6/F4_British_Championship_logo.jpeg",
-  "https://upload.wikimedia.org/wikipedia/en/f/f6/F4_British_Championship_logo.jpeg",
-  "https://upload.wikimedia.org/wikipedia/en/f/f6/F4_British_Championship_logo.jpeg",
+  "https://upload.wikimedia.org/wikipedia/en/5/56/GB3_logo.png",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijZwDG1q7MkmX4BDboPEp-pUwdyTOy7y2Zg&s",
+  "https://pfc.parts/wp-content/uploads/2019/03/f4spain-logo.png",
+  "https://upload.wikimedia.org/wikipedia/en/f/f9/Italian-f4-championship.png",
   "https://upload.wikimedia.org/wikipedia/en/f/f6/F4_British_Championship_logo.jpeg",
 ];
 
