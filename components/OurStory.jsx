@@ -30,16 +30,16 @@ const drivers = [
 const OurStory = () => {
 
   return (
-    <div className="flex bg-white items-center justify-center">
-      <div className="bg-white w-1/2 h-full flex items-center gap-20 justify-center">
+    <div className="flex flex-col-reverse md:flex-row bg-white items-center justify-center">
+      <div className="bg-white md:w-1/2 h-full px-5 flex items-center gap-10 md:gap-20 justify-center">
         {drivers.map((driver, index) => (
-          <div className='flex flex-col items-center gap-5' key={index}>
-            <img src={driver.photo} alt="" className='w-30 h-30 rounded-full object-cover'/>
-            <h2 className={`${inter.className} font-medium text-black text-lg tracking-tighter`}>{driver.name}</h2>
+          <div className='flex flex-col items-center gap-5 py-10 md:py-0' key={index}>
+            <img src={driver.photo} alt="" className='w-20 h-20 md:w-30 md:h-30 rounded-full object-cover'/>
+            <h2 className={`${inter.className} font-medium text-center text-black md:text-lg tracking-tighter`}>{driver.name}</h2>
           </div>
         ))}
       </div>
-      <div className="bg-black w-1/2 flex flex-col items-center justify-center p-10">
+      <div className="bg-black md:w-1/2 flex flex-col items-center justify-center p-10">
         <h1 className={`${orbitron.className} text-center font-bold text-3xl`}>OUR STORY</h1>
         <div
           className="bg-[#0090FF] w-36 h-1 my-4"

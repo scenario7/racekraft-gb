@@ -9,7 +9,10 @@ const inter = Space_Grotesk({
 
 const CustomFooter = () => {
   return (
-    <div className="bg-black flex items-center justify-between p-10">
+    <div className="bg-black flex flex-col md:flex-row md:gap-0 items-center md:justify-between p-5 md:p-10">
+      <div className="md:hidden">
+        <img src={logo.src} alt="" className="w-48 pb-10" />
+      </div>
       <div className="">
         <p
           className={`${inter.className} text-center tracking-tight text-white`}
@@ -23,15 +26,15 @@ const CustomFooter = () => {
           United Kingdom
         </p>
       </div>
-      <div className="">
-        <img src={logo.src} alt="" className="w-48" />
+      <div className="pb-5 md:pb-0">
+        <img src={logo.src} alt="" className="w-48 hidden md:block" />
       </div>
       <div className="">
         <a
-        href="mailto:hello@racekraftgb.com"
-          className={`${inter.className} text-center tracking-tight text-white`}
+          href="mailto:hello@racekraftgb.com"
+          className={`${inter.className} text-center tracking-tight text-gray-500`}
         >
-            hello@racekraftgb.com
+          hello@racekraftgb.com
         </a>
       </div>
     </div>

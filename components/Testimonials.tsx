@@ -41,9 +41,9 @@ const Testimonials = () => {
             boxShadow: '0 0 24px 8px #0090FF88, 0 0 60px 16px #0090FF22',
           }}
         ></div>
-        <div className='flex justify-between gap-10 mt-10'>
+        <div className='flex flex-col lg:flex-row justify-between gap-10 mt-10'>
           {testimonials.map((driver, index) => (
-            <div className={`flex`} style={{ background: driver.color }} key={index}>
+            <div className={`flex flex-col-reverse md:flex-row`} style={{ background: driver.color }} key={index}>
                 <div className='flex flex-col p-10 gap-5'>
                     <p className={`${inter.className} tracking-tighter text-center`}>
                         {driver.description}
@@ -52,7 +52,7 @@ const Testimonials = () => {
                     {driver.name}
                 </h1>
                 </div>
-                <img src={driver.photo} alt="" className='w-40 object-cover'/>
+                <img src={driver.photo} alt="" className='w-full md:w-40 object-cover'/>
             </div>
           ))}
         </div>
