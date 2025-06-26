@@ -25,6 +25,13 @@ const CustomFooter = () => {
           <br />
           United Kingdom
         </p>
+        <div className="flex justify-center mt-2">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+            alt="UK Flag"
+            className="w-8 h-5"
+          />
+        </div>
       </div>
       <div className="pb-5 md:pb-0">
         <img src={logo.src} alt="" className="w-48 hidden md:block" />
